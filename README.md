@@ -14,9 +14,10 @@ Server:
 
  Example of input file (Records.txt) format read by the server : 
 
-              101 Peter 16000
-              102 John 1200
-              103 Gambo 11000
+              101 Pabitra 45500
+              102 Sourav 59700
+              103 Tiru 41800
+              104 Ankit 29600
   The format for each line being: account number, name, balance amount
   
 Client:
@@ -31,6 +32,6 @@ Client:
 
 Example of the format I have taken as input file (Transaction.txt) for each client and used in testing.
 
-         10 101 w 200
-         25 101 d 300
-         26 105 d 150
+         5 104 d 200
+         10 103 d 100
+         15 102 d 200
