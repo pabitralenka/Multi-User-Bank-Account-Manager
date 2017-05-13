@@ -11,8 +11,8 @@ runclient individually :
 	./client.o 127.0.0.1 8888 0.2 Transactions.txt
 
 
-runclient simultaneously
-  	chmod 755 ./script.sh
+runclient simultaneously :
+  	chmod 755 script.sh
   	./script.sh
 
   
